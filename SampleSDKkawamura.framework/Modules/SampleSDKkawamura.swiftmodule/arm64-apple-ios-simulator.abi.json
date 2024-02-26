@@ -1,0 +1,91 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SampleSDKkawamura",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Calculator",
+        "printedName": "Calculator",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Calculator",
+                "printedName": "SampleSDKkawamura.Calculator",
+                "usr": "s:17SampleSDKkawamura10CalculatorC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17SampleSDKkawamura10CalculatorCACycfc",
+            "mangledName": "$s17SampleSDKkawamura10CalculatorCACycfc",
+            "moduleName": "SampleSDKkawamura",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "add",
+            "printedName": "add(a:b:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17SampleSDKkawamura10CalculatorC3add1a1bS2i_SitF",
+            "mangledName": "$s17SampleSDKkawamura10CalculatorC3add1a1bS2i_SitF",
+            "moduleName": "SampleSDKkawamura",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:17SampleSDKkawamura10CalculatorC",
+        "mangledName": "$s17SampleSDKkawamura10CalculatorC",
+        "moduleName": "SampleSDKkawamura",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
